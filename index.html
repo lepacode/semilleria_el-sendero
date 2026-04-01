@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salones — Encontrá la fecha perfecta</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+     HEADER
+========================================= -->
+    <header class="header" id="header" role="banner">
+        <a class="header__logo" href="#" aria-label="Inicio">
+            <img src="assets/logo.svg" alt="Semillería Logo" class="logo__img">
+        </a>
+    </header>
+
+    <!-- =========================================
+     MAIN
+========================================= -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" aria-labelledby="hero__heading">
+            <div class="hero__bg" role="presentation" aria-hidden="true"></div>
+
+            <div class="hero__content">
+                <h1 class="hero__slogan">Naturalmente fresco. Naturalmente completo para vos y tus mascotas</h1>
+                <!-- <div class="hero__btn__group">
+                    <a href="#section-categorias" class="hero__cta__btn">Ver Alimentos</a>
+                    <a href="#section-categorias" class="hero__cta__btn hero__cta__btn--alt">Ver Snacks</a>
+                </div> -->
+            </div>
+        </section>
+
+
+        <!-- OPORTUNIDADES DE LA SEMANA -->
+        <section class="section oportunidades" id="oportunidades" aria-labelledby="oportunidades__title">
+            <h2 class="section__title" id="oportunidades__title">
+                <span aria-hidden="true">🔥</span> Oportunidades de Esta Semana
+            </h2>
+
+            <div class="oportunidades__wrapper">
+                <div class="oportunidades__track__outer">
+                    <div class="oportunidades__track" id="carouselTrack" role="list">
+
+                        <!-- Card 1: Combo Perro Feliz -->
+                        <article class="oportunidades__card combo_card" id="combo-perro-feliz" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">EL MÁS BUSCADO</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>Bolsa Vitalcan 22kg</li>
+                                            <li>1kg Maní Salado Tostado</li>
+                                            <li>Pack Maní Crocante Queso</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Perro Feliz</h3>
+                                    <p class="combo__detail">Nutrición y sabor para ambos</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$59.900</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Card 2: Combo Cerealero Full -->
+                        <article class="oportunidades__card combo_card" id="combo-cerealero" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">DESAYUNO IDEAL</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>Almohaditas Chocolate 2.5kg</li>
+                                            <li>Anillos de Colores 2.5kg</li>
+                                            <li>Copos Azucarados 1kg</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Cerealero Full</h3>
+                                    <p class="combo__detail">Ahorro para toda la familia</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$21.500</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Card 3: Combo Gatito Consentido -->
+                        <article class="oportunidades__card combo_card" id="combo-gato" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">OFERTA GATUNA</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>Belcat Adulto 10kg</li>
+                                            <li>Nutri Chok Bolitas</li>
+                                            <li>Nutrifoods Cups Chocolate</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Gatito Consentido</h3>
+                                    <p class="combo__detail">Mimos y calidad garantizada</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$27.900</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Card 4: Combo Picada Extreme -->
+                        <article class="oportunidades__card combo_card" id="combo-picada" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">MOMENTO SNACK</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>1kg Maní Frito Salado</li>
+                                            <li>Maní Crocante Pizza 80g</li>
+                                            <li>Maní Crocante Queso 80g</li>
+                                            <li>Maní Spicy Hot 80g</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Picada Extreme</h3>
+                                    <p class="combo__detail">Sabor intenso para compartir</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$16.500</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Card 5: Combo Energía Diaria -->
+                        <article class="oportunidades__card combo_card" id="combo-energia" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">PACK SALUDABLE</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>Granola con Pasas 1kg</li>
+                                            <li>Anillos Avena y Miel 2.5kg</li>
+                                            <li>Copos Integral 2.5kg</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Energía Diaria</h3>
+                                    <p class="combo__detail">Equilibrio y vitalidad</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$25.500</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Card 6: Combo Snack Mix -->
+                        <article class="oportunidades__card combo_card" id="combo-snack-mix" role="listitem">
+                            <div class="oportunidades__card__img combo__header">
+                                <div class="combo__overlay">
+                                    <span class="combo__badge">MIX RÁPIDO</span>
+                                    <div class="combo__content__inner">
+                                        <h4 class="combo__includes__title">INCLUYE:</h4>
+                                        <ul class="combo__items combo__items--centered">
+                                            <li>Maní Tostado 1kg</li>
+                                            <li>Maní Frito 100gr</li>
+                                            <li>Nutrichock 160gr</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oportunidades__card__body combo__body">
+                                <div class="combo__info__main">
+                                    <h3 class="combo__name">Combo Snack Mix</h3>
+                                    <p class="combo__detail">Ideal para tus recreos</p>
+                                </div>
+                                <div class="combo__footer__action">
+                                    <span class="combo__price__tag">$9.900</span>
+                                    <button class="oportunidades__card__btn combo__cta">Consultar</button>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Flechas de navegación -->
+                <div class="oportunidades__nav" aria-hidden="true">
+                    <button class="oportunidades__nav__btn" id="carouselPrev" aria-label="Anterior">&#8592;</button>
+                    <button class="oportunidades__nav__btn" id="carouselNext" aria-label="Siguiente">&#8594;</button>
+                </div>
+            </div>
+
+            <!-- Dots -->
+            <div class="oportunidades__dots" id="carouselDots" role="tablist" aria-label="Indicadores del carrusel">
+            </div>
+        </section>
+
+        <section class="categorias" id="section-categorias">
+            <h5 class="categorias__titulo">Buscá por categorías</h5>
+            <div class="categoria__item">
+                <button class="categoria__button" data-categoria="todo">Todo</button>
+                <button class="categoria__button" data-categoria="bolsas">Alimento Perros</button>
+                <button class="categoria__button" data-categoria="automotor">Alimento Gatos</button>
+                <button class="categoria__button" data-categoria="papel">Snacks</button>
+                <button class="categoria__button" data-categoria="cocina">Cereales</button>
+                <button class="categoria__button" data-categoria="hogar">Control Plagas</button>
+            </div>
+        </section>
+
+        <section class="buscador">
+            <div class="buscador__contenedor">
+                <input type="text" class="buscador__input" placeholder="Buscar">
+            </div>
+        </section>
+
+        <section class="articulos" id="contenedor-articulos">
+            <div class="articulos__contenedor">
+
+
+                <!-- Card: Alimento Perros -->
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Alimento Exact Perro Adulto Criadores 8kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/perro_exact1.webp" alt="">
+                    <p class="articulos__descripcion">Perros adultos, 21% mas proteiínas + probióticos</p>
+                    <h5 class="articulos__precio">$28.930</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Alimento Exact Premium Perros Adultos 18kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/perro_exact2.webp" alt="">
+                    <p class="articulos__descripcion">Con Omega 3 y 6 Pelaje suave y brillante
+                        Con fibras prebióticas
+                    </p>
+                    <h5 class="articulos__precio">$36.986</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Alimento Exact Premium Perros Cachorros x 15kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/perro_exact2.webp" alt="">
+                    <p class="articulos__descripcion">Con calcio y fósforo, fibras prebióticas, antioxidantes naturales
+                    </p>
+                    <h5 class="articulos__precio">$31.282</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Alimento Exact Criadores Perro Cachorro 8kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/perro_exact4.webp" alt="">
+                    <p class="articulos__descripcion">Nutrición completa incluye vitaminas C y E, selenio,
+                        zinc, calcio y aminoácidos
+                    </p>
+                    <h5 class="articulos__precio">$31.282</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Rosco Perro Adulto X15kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/rosco_pollo.webp" alt="">
+                    <p class="articulos__descripcion">Ayuda a eliminar el sarro y retrasar la placa dental, contiene
+                        calcio y fósforo.
+                    </p>
+                    <h5 class="articulos__precio">$26.135</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Alimento Vitalcan mediana/grande 22 kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/vitalcan_complete.webp" alt="">
+                    <p class="articulos__descripcion">Promueve la salud dental al reducir la formación de sarro,
+                        contiene vitamina B1
+                    <h5 class="articulos__precio">$53.017</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="bolsas">
+                    <h4 class="articulos_name">Zimpi Perros Adultos Sabor Carne x 15kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/perros/zimpy.webp" alt="">
+                    <p class="articulos__descripcion">Aporta protínas de origen animal, libre de colorantes y hormonas
+                    <h5 class="articulos__precio">$53.017</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+
+
+
+
+
+
+                <!-- Card 2: Gatos -->
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Vitalcan Belcat Gato Adulto X 10 Kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/gatos/belcat.webp" alt="">
+                    <p class="articulos__descripcion">alimento balanceado completo para gatos adultos, con nutrientes y
+                        vitaminas</p>
+                    <h5 class="articulos__precio">$24.851</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Alimento 9 Lives Gatito 8Kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/gatos/9lives.webp" alt="">
+                    <p class="articulos__descripcion"> Para gatito (1 a 12 Meses), alimento a base de Carne y Leche
+                        vitaminas</p>
+                    <h5 class="articulos__precio">$24.851</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+
+
+
+
+
+
+                <!-- Card: Automotor -->
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Frito Salado Pelado King 1kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-king-1kl.webp" alt="">
+                    <p class="articulos__descripcion">Maní King premium salado, crocante, sin TACC y listo para
+                        disfrutar</p>
+                    <h5 class="articulos__precio">$7.399</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani tostado Salado Pelado King 1kg</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-tostado-king-1kl.webp" alt="">
+                    <p class="articulos__descripcion">Maní King premium salado, crocante, sin TACC y listo para
+                        disfrutar</p>
+                    <h5 class="articulos__precio">$8.700</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Frito Sin Piel Mani King X 350gr</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-king-1kl.webp" alt="">
+                    <p class="articulos__descripcion">Maní King premium salado, crocante, sin TACC y listo para
+                        disfrutar</p>
+                    <h5 class="articulos__precio">$3.999</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Frito Sin Piel Mani King X 350gr</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-tostado-king-1kl.webp" alt="">
+                    <p class="articulos__descripcion">Maní King premium salado, crocante, sin TACC y listo para
+                        disfrutar</p>
+                    <h5 class="articulos__precio">$3.000</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Frito Sin Piel Mani King X 100gr</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-tostado-king-1kl.webp" alt="">
+                    <p class="articulos__descripcion">Maní King premium salado, crocante, sin TACC y listo para
+                        disfrutar</p>
+                    <h5 class="articulos__precio">$1.200</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Crocante Sabor Queso Mani King X 80g</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-king-80gr.webp" alt="">
+                    <p class="articulos__descripcion">Es libre de gluten, ideal para quienes buscan alternativas sin
+                        TACC.</p>
+                    <h5 class="articulos__precio">$3.520</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Mani Crocante Sabor Pizza Mani King X 80g</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/mani-pizza-king-80gr.webp" alt="">
+                    <p class="articulos__descripcion">Es libre de gluten, ideal para quienes buscan alternativas sin
+                        TACC.</p>
+                    <h5 class="articulos__precio">$6.528</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Nutri Chok Bolitas de Chocolate</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/nutrichock.webp" alt="">
+                    <p class="articulos__descripcion">Cereal crocante con sabor a chocolate, ideal para desayunos.</p>
+                    <h5 class="articulos__precio">$2.080</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Nutri Chok Bolitas de Chocolate 160gr</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/nutrirings.webp" alt="">
+                    <p class="articulos__descripcion">Cereal de anillos frutales Nutri Rings (160g), con maíz, trigo y
+                        azúcar; alto en azúcares y calorías.</p>
+                    <h5 class="articulos__precio">$1.700</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Copitas De Chocolate Nutrifoods Cups 200 G</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/nutrichups.webp" alt="">
+                    <p class="articulos__descripcion">Copos de cereal fortificados sabor chocolate Nutri Kids 200g -
+                        axucar y chocolate</p>
+                    <h5 class="articulos__precio">$3.100</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="automotor">
+                    <h4 class="articulos_name">Maní King Spicy Hot 80g</h4>
+                    <img class="articulos__img" src="assets/imagenes/snacks/nutri-balance.webp" alt="">
+                    <p class="articulos__descripcion">Maní frito con un toque picante intenso, crocante y lleno de
+                        sabor. Ideal para los amantes del picante</p>
+                    <h5 class="articulos__precio">$950</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+
+
+
+
+                <!-- Card: Papel -->
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Almohaditas Chocolate 2.5kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/nutriFoods-almohadillas-frutilla.webp"
+                        alt="">
+                    <p class="articulos__descripcion">Cereal relleno sabor frutilla, dulce y crocante, ideal para snacks
+                        o desayuno.</p>
+                    <h5 class="articulos__precio">$9.800</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Anillos de Colores 2.5kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/nutriFoods-almohadillas-frutilla.webp"
+                        alt="">
+                    <p class="articulos__descripcion">Aritos frutales de colores, divertidos, dulces y crocantes.</p>
+                    <h5 class="articulos__precio">$9.600</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Anillos Avena y Miel 2.5kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/nutriFoods-almohadillas-frutilla.webp"
+                        alt="">
+                    <p class="articulos__descripcion">Cereal crocante con avena y miel, equilibrado y sabroso.</p>
+                    <h5 class="articulos__precio">$13.400</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Copos integral 2.5kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/copos-integral.webp" alt="">
+                    <p class="articulos__descripcion">Copos de cereal integrales, livianos y nutritivos para el desayuno
+                        o merienda</p>
+                    <h5 class="articulos__precio">$11.400</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Copos Azucarados 1kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/copos-azucarados.webp" alt="">
+                    <p class="articulos__descripcion">Copos de maíz dulces y crocantes, clásicos para toda la familia.
+                    </p>
+                    <h5 class="articulos__precio">$5.500</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Granola con Pasas 1kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/copos-granola.webp" alt="">
+                    <p class="articulos__descripcion">Mix de granola con pasas, crocante y energético.
+                    </p>
+                    <h5 class="articulos__precio">$5.500</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+                <div class="articulos__item" data-categoria="papel">
+                    <h4 class="articulos_name">NutriFoods Bolitas de Chocolate 1kl</h4>
+                    <img class="articulos__img" src="assets/imagenes/cereal/bolitas-chocolate.webp" alt="">
+                    <p class="articulos__descripcion">Cereal de bolitas con chocolate, intenso y crocante.
+                    </p>
+                    <h5 class="articulos__precio">$5.500</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+
+
+
+
+                <!-- Card: Cocina -->
+                <div class="articulos__item" data-categoria="cocina">
+                    <h4 class="articulos_name">Veneno Ratas Granos Ultra Plus 30 Sobres Blíster</h4>
+                    <img class="articulos__img" src="assets/imagenes/plaga/plaga1.webp" alt="">
+                    <p class="articulos__descripcion">Raticida en semillas Ultra Plus, eficaz contra ratas, con 30
+                        sobres de 50g. </p>
+                    <h5 class="articulos__precio">$8.300</h5>
+                    <button class="articulos__btn">Consultar</button>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer__content">
+            <h2 class="footer__slogan">Calidad natural para el consumo</h2>
+            <p class="footer__copy">© 2026 Semillería — Alimentos y Snacks de Alta Calidad</p>
+        </div>
+    </footer>
+
+    <script src="cache.js"></script>
+    <script src="js/script.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
